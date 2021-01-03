@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: website
-        path: /home/runner/work/cloudwithchris.com/cloudwithchris.com/public
+        path: /home/runner/work/cloudwithchris/cloudwithchris/public
   publish:    
     environment:
       name: production.azure
